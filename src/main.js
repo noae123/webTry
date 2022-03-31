@@ -1,8 +1,9 @@
 import Vue from 'vue'
-import App from './App.vue'
+//import FeedPage from './FeedPage.vue'
+import RecoredPage from './RecoredPage.vue'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+    render: h => h(RecoredPage),
 }).$mount('#app')
